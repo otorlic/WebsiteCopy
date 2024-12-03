@@ -50,7 +50,7 @@
 .navbar__menu {
     display: flex;
     align-items: center;
-    list_style: none;
+    list-style: none;
     text-align: center;
 }
 
@@ -136,7 +136,7 @@
     }
 
     #navbar__logo {
-        position-left: 25px;
+        padding-left: 25px;
     }
 
     .navbar__toggle .bar {
@@ -192,7 +192,7 @@
     }
 
     #mobile-menu.is-active .bar:nth-child(3) {
-        transform: translateY(8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
 
